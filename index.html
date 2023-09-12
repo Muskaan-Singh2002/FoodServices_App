@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@0,400;0,500;0,700;1,900&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1170px)"
+      href="css/phone.css"
+    />
+    <title>Online Meal Delivery</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="img/logo.png" alt="OnlineMeal.com" />
+      </div>
+      <div>
+        <ul>
+          <li class="item"><a href="#home">Home</a></li>
+          <li class="item"><a href="#services-section">Services</a></li>
+          <li class="item"><a href="#client-section">About Us</a></li>
+          <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home">
+      <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+      <p>
+        A platform that solves your concern of food related issues.
+      </p>
+      <p>
+"Savor the flavor, order with ease, satisfy your cravings – the ultimate online food app experience!"</p>
+      <a href="#contact"><button class="btn">Avail Service</button></a>
+    </section>
+    <section class="services-container" id="services-section">
+      <h1 class="h-primary center">Our Services</h1>
+      <p style="margin-left: 37%;">Contact Us to avail our services. We'll get back to you.</p>
+      <div id="services">
+        <div class="box">
+          <img src="img/pizza.jpeg" alt="" />
+          <h2 class="h-secondary center">Food Catering</h2>
+          <p class="center">
+            <p style="font-weight: 600;">"Savor Every Bite: Your Culinary Journey Begins Here with Our Irresistible Foot Catering Delights!"</p>
+            Remember that it's important to plan catering well in advance of your event, as reputable caterers can book up quickly, especially during peak seasons. Whether you're hosting a small gathering or a large celebration, catering can simplify the process of providing delicious food for your guests.
+          </p>
+        </div>
+        <div class="box">
+          <img src="img/plate.jpeg" alt="" />
+          <h2 class="h-secondary center">Bulk Ordering</h2>
+          <p class="center">
+         <p style="font-weight: 600;">"Streamline Savings: Elevate Seamless Bulk Ordering for Quality and Efficiency!"</p> Enhance your dining experience with our bulk ordering options. Enjoy restaurant-quality flavors in the comfort of your home while saving big on your favorite dishes. With generous portions and unbeatable prices, treat your taste buds to a feast they won't forget. Order in bulk today!
+          </p>
+        </div>
+        <div class="box">
+          <img src="img/scooty.jpeg" alt="" />
+          <h2 class="h-secondary center">Food Delivery</h2>
+          <p class="center">
+            <p style="font-weight: 600;">"From Kitchen to Your Doorstep: Satisfy Cravings with Speedy, Savory, and Seamless Food Delivery Delights!"</p>Show your care with our food delivery service! Surprise your loved ones with a delightful meal delivered straight to their door. Whether it's a special occasion or just because, share the joy of delicious food and bring smiles to their faces. Avail service now and spread the love!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="client-section">
+      <h1 class="h-primary center">Our Clients</h1>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/man1.avif" class="imgDet" alt="">
+      <p class="testify">"One of the best on-site platform you can use to skip the chaos of catering services."</p>
+      <p class="name">- Ram Goel</p>
+    </div>
+    <div class="carousel-item">
+      <img src="img/woman1.jpg" class="imgDet" alt="">
+      <p class="testify">"One of the best platform which provides you the facity to avail bulk ordering services."</p>
+      <p class="name">- Pranali Rathod</p>
+    </div>
+    <div class="carousel-item">
+      <img src="img/man2.jpg" class="imgDet" alt="">
+      <p class="testify">"One of the best online platform you can use to help deliver food to your loved ones."</p>
+      <p class="name">- Anonymous</p>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </section>
+
+    <section id="contact">
+      <h1 class="h-primary center">Contact Us</h1>
+      <div id="contact-box">
+        <form action="">
+          <div class="form-group">
+            <label for="name">Name: </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email: </label>
+            <input
+              type="text"
+              name="name"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone: </label>
+            <input
+              type="text"
+              name="name"
+              id="phone"
+              placeholder="Enter your phone"
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">Service: </label>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Enter details about the service you want to avail."></textarea>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="center">
+        Copyright &copy; www.myOnlineMeal.com. All rights reserved !!
+      </div>
+    </footer>
+        <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    ></script>
+  </body>
+</html>
